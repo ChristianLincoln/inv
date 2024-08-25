@@ -18,7 +18,7 @@ PostgreSQL Database Setup:
   CREATE DATABASE challenge_feedback; 
 Create the database responsible for holding all the posts and messages for our challenge. 
   USE challenge_feedback; 
-Use that database. 
+Use that database.`
     -- Create a table of users, each user can have a name and a url to their avatar, also an id.
     CREATE TABLE users (
       user_id SERIAL PRIMARY KEY,
@@ -53,4 +53,4 @@ Use that database.
     -- Crease some messages
     INSERT INTO messages (message_id,message_content,user_id,post_id) VALUES
     (1,'Hello Penny! We use Vue and Vuetify for our frontend with Flask and PostgreSQL for our backend.',3,2),
-    (2,'Hi Herman! We are looking for an innovative solution that tackles the crux of the problem. Maybe go for something small but powerful, like a chatbot.',3,2);
+    (2,'Hi Herman! We are looking for an innovative solution that tackles the crux of the problem. Maybe go for something small but powerful, like a chatbot.',3,2);`
